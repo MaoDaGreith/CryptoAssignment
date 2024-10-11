@@ -1,5 +1,6 @@
 package model
 
+// Transaction model
 type Transaction struct {
 	From  string `json:"from"`
 	To    string `json:"to"`
